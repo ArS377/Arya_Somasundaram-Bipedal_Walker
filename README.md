@@ -1,8 +1,6 @@
 # Arya_Somasundaram-Bipedal_Walker
 
-This repository contains code and configuration for training a reinforcement learning agent on a Bipedal Walker environment (customized reward / forward-bonus experiments). The project is organized into a small set of Python modules — each file has a single responsibility described below.
-
-## Files and purpose
+### Files and purpose
 
 - `baseline_model.py`
 
@@ -23,3 +21,7 @@ This repository contains code and configuration for training a reinforcement lea
 - `train.py`
 
   - The PPO model is defined here and trained.
+
+### Install required libraries
+
+`pip install -r requirements.txt`
